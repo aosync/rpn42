@@ -1,5 +1,5 @@
 const Token = require('./lib/Token');
 
-let tokS = Token.Tokenize('lbl ho lbl test 1 1 + rtn rtn');
+let tokS = Token.Tokenize('lbl test lbl ha 4 4 + rtn + rtn >');
 let lTokS = Token.Lex(tokS);
 Token.Parse(lTokS);
